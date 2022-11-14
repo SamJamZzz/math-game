@@ -11,11 +11,7 @@ class Question
     @num1 + @num2
   end
 
-  def answer(ans)
-    @answer = ans
-  end
-
-  def answered_correctly?()
+  def answered_correctly?
     self.correct_answer == @answer
   end
 
